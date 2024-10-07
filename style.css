@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Aquafina';
+    src: url('./Aguafina_Script/AguafinaScript-Regular.ttf');
+}
+
 body {
     background-color: #f9f9f9;
     margin: 0;
@@ -10,6 +15,12 @@ p {
 
 h1 {
     margin-top: 0;
+    font-family: "Aquafina", cursive;
+
+    background-image: url('https://media.tenor.com/y2OZP8gWd9AAAAAi/animated-overlay-overlay.gif');
+    background-size: 100%;
+    background-clip: text;
+    color: transparent;
 }
 
 h1, h2 {
